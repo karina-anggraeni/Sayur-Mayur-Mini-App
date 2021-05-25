@@ -8,9 +8,9 @@ The purpose of this assignment is to help us apply **CRUD** (Create, Read, Updat
 ### **Intro**
 Mega and I love to eat our vegetables, so we decided that the application is going to be a stock-opname for vegetables. We called it **"The Sayur-Mayur Application"**. There are a few vegetables already listed in the app, which are: 'bayam', 'kangkung', 'bawang', 'kangkung', 'sawi', 'wortel', 'bayam', 'terong', 'wortel', 'kentang', 'terong', and 'selada' (all in consecutive order).
 
-When you first run the application, it will require a password. If you input the right password (in this case, we set the password to "hai"), you will be directed to the main menu interface. Inside the main menu, the user will be able to choose between five alternate menus; to see the available stocks (**read**), to input new stocks (**create**), to make changes to existing stock (**update**), to delete stocks (**delete**), or to exit the application.
+When you run the application, it will require the user to input a password. Inputting the right password (in this case, we set the password to "hai") will get the user to the main menu. Inside the main menu, the user will be able to choose between five alternate menus; to see the available stocks (**read**), to input new stocks (**create**), to make changes to existing stock (**update**), to delete stocks (**delete**), or to exit the application.
 
-The user is given four chances as the limit to input the right password. When the limit is exceeded, the application will automatically close.
+The user is given a limit of four chances to input the right password. When the limit is exceeded, the application will automatically stop.
 
 ### **Read**
 When selected, this submenu will return the names of all the vegetables available in stock. If the stock is empty, the user will receive a notification message.
@@ -23,5 +23,10 @@ When selected, this submenu will also give the user an input prompt. The program
 
 ### **Delete**
 The concept of this submenu is quite similar to the 'update' submenu. The user will need to input an existing vegetable name to be able to delete it from the list.
+
+![Output](https://github.com/karina-anggraeni/Sayur-Mayur-Mini-App/blob/main/Sample%20Image/Sayur%20Mayur%20-%20Output.png)
+
+
+After executing given order, the user will be given two choices; to get back to the same submenu or to go to the main menu. The user will only be able to exit the application from the main menu.
 
 You can see the full code in the **SayurMayur_CRUD** file.
